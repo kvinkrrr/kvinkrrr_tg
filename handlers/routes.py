@@ -82,7 +82,7 @@ async def start (message: Message):
 @router.callback_query(lambda c: c.data=="tgc")
 async def process_more_info(callback:CallbackQuery):
     caption = "\t👇🔜😳       👅️😭💀 \n\nВот ссылка на мой тгк!\nПодай заявку, чтобы вступить в канал\nhttps://t.me/+GLuF0ukWBL9kYTky\n\n"\
-              "Нажми / start, чтобы вернутся обратно в меню\n"
+              "Нажми /start, чтобы вернутся обратно в меню\n"
 
     # Реальные ID Premium Emoji
     emojis = [
